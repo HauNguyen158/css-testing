@@ -1,4 +1,4 @@
-function Header() {
+export default function Header() {
 	return (
 		<div class=" px-[46px] py-[20px] fixed top-0 w-full z-20">
 			<div class="flex justify-between h-[48px] items-center">
@@ -43,6 +43,5 @@ function Header() {
 			</div>
 		</div>
 	);
-}
+};
 
-export default Header;

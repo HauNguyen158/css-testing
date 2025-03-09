@@ -1,6 +1,6 @@
 import './App.css';
-import Header from './components/header';
-import Banner from './components/banner';
+import Header from './components/Header';
+import Banner from './components/Banner';
 import Registration from './components/Registration';
 import About from './components/About';
 import Activities from './components/Activities';

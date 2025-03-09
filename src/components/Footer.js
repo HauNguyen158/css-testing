@@ -2,7 +2,7 @@ export default function Footer() {
 	return (
 		<div class="footer grid gap-[24px] py-[80px] px-[24px] border-t border-t-[#292929]">
 			<div class="grid grid-cols-[max-content_auto_max-content] w-full h-[95px] max-w-[1280px] justify-between items-center">
-				<img class="max-h-[95px]" src="https://s3-alpha-sig.figma.com/img/e95d/fa3d/2b04671ad2d70dbb2ca8090224695c61?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ok16DtN2oy4o5ZQ89YW330At~S5xO3tS5MT8l1s-khYuPa6pOBjy1YogEu8QCSLIEeF9CT3KFcuCd~0QbxmhsP7zWEZORgIN-1HzAAtkGCgWgQntNCK2M0l~6V4JtZqUP--~bY8EQ6riwwpKozMi6uWeZTtc6ovzsJV4RXSF9dggFpQT~3iKVOVQ3foYuHomuBpL1uO-yJXfUIcQVk1nL~DobC9SpllMYjoKwcn7KjXEr57hMrXz~GqIglk6HloEEmneoTQtaPwbxtvBVZe34GOchMv8S8bO1sIvlbA3FYZUIjDoNs35dPCwwKsHCYpco7pryyo-letoUGvg08b9Mw__" />
+				<img alt="" class="max-h-[95px]" src="https://s3-alpha-sig.figma.com/img/e95d/fa3d/2b04671ad2d70dbb2ca8090224695c61?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ok16DtN2oy4o5ZQ89YW330At~S5xO3tS5MT8l1s-khYuPa6pOBjy1YogEu8QCSLIEeF9CT3KFcuCd~0QbxmhsP7zWEZORgIN-1HzAAtkGCgWgQntNCK2M0l~6V4JtZqUP--~bY8EQ6riwwpKozMi6uWeZTtc6ovzsJV4RXSF9dggFpQT~3iKVOVQ3foYuHomuBpL1uO-yJXfUIcQVk1nL~DobC9SpllMYjoKwcn7KjXEr57hMrXz~GqIglk6HloEEmneoTQtaPwbxtvBVZe34GOchMv8S8bO1sIvlbA3FYZUIjDoNs35dPCwwKsHCYpco7pryyo-letoUGvg08b9Mw__" />
 				<span class="text-[#FFFFFF] font-space-grotesk font-normal text-[14px] leading-[150%] tracking-[0%] max-w-[300px] text-left">
 					New entertainment centre FUN arena Cheb. You will find entertainment and sports activities for children and adults here.
 				</span>

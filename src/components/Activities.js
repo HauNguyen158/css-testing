@@ -5,7 +5,7 @@ export default function Activities() {
 			img: "https://s3-alpha-sig.figma.com/img/702b/9c3c/79ab21976e07135228628e79f04c88bb?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=J~t5GK2VfE8kpSSdfN8EM6EznierJPqkFJ4x6Oo~izEnWNV-kMgeSeaf4npLt9nviD9FJDK86e8MWeceyqf1e-Yw0RYcRwVpOodI7-fSHV0Kqfdz1HaxUo0eaUDxB5NFiL9U6Qmmm4gV3-sEdeXsRg-oQj9Mxzcrx1cj8OIK5Gt~LLx~2lbWu2S25XRd464bUkAnRH-2pwtjV7y-1MwJSyaIgZZ2mFc~~PUa6a1cwZ0YJoVReu15o1U8INyeq1PpIGUfzsyLR9PXH38MmawYGeeS2lqwPdY15euzcPtJidu2B8IBoq8kNccZzLdg-46y1QheRa9ZFNUe4Aah7TwM1A__"
 		},
 		{
-			text: "jumparenad fsgas gtsa sg gagsg",
+			text: "jumparenad",
 			img: "https://s3-alpha-sig.figma.com/img/3fc9/0ed1/d702d2fe4601d26b0d8698a39ec31525?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DdBj3~qD3F7dr6qrpOIAEXAHsrkEF0YRaYJXWhqHqHmk0GIoEGnFI5MyBbz3-KoE-xjq-IdGffxPfnz2UH6lllX12ZbkRixAL4t1Ss9Fn1KZYtIV9yq95gi4BWWpcMZNV3c1LCbZsOWPH-Ww7KAmjJTEvgQ5GfCd8uL8weGUATH0lplLoiI9KQfnhZd3Vx0v6ZJOx8QGWoj9kBmltUinn7D4Cm3796pF0-uyH7msUhoZzdMD54fCCXpizb~DGNinCFyo9SQs2XkcogrI7Po-T8DywRO-mcItzvVhYd2WitSN5vH65x63zw17TGoA9XATQ729cW5SelWfOk4l3TV8WA__",
 			actived: true
 		},
@@ -72,8 +72,6 @@ export default function Activities() {
 									</div>
 								)
 						})}
-
-
 					</div>
 
 					<div class="w-full">

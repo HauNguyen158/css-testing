@@ -1,8 +1,7 @@
 export default function Registration() {
 	return (
-		<div class="registration w-full grid gap-[10px] px-[100px] px-[24px]">
-
-			<div class="grid xs:grid-cols-1 md:grid-cols-2 auto-rows-auto items-start justify-between gap-[80px] px-[16px] py-[100px]">
+		<div class="registration w-full grid gap-[10px] py-[100px] px-[24px]">
+			<div class="grid xs:grid-cols-1 md:grid-cols-2 items-start justify-between gap-[80px] px-[16px] py-[100px]">
 				<div class="text-left grid grid-cols-1 gap-[32px] text-[#D9D9D9]">
 					<div class="font-big-shoulders text-[72px] leading-[100%] font-bold uppercase">
 						Registration
@@ -28,7 +27,7 @@ export default function Registration() {
 				</div>
 
 				<div class="grid gap-[48px]">
-					<div class="instruct text-[#D9D9D9]">
+					<div class="grid grid-cols-[max-content_1fr] gap-2 items-end text-[#D9D9D9]">
 						<div class="button-custom bg-[#29292980] h-[50px] w-[58px] justify-center">
 							<div class="text font-space-grotesk text-[#009FE3] text-[72px] leading-[50px] font-bold">
 								1
@@ -45,7 +44,7 @@ export default function Registration() {
 						</div>
 					</div>
 
-					<div class="instruct text-[#D9D9D9]">
+					<div class="grid grid-cols-[max-content_1fr] gap-2 items-end text-[#D9D9D9]">
 						<div class="button-custom bg-[#29292980] h-[50px] w-[58px] justify-center">
 							<div class="text font-space-grotesk text-[#009FE3] text-[72px] leading-[50px] font-bold">
 								2
@@ -55,11 +54,12 @@ export default function Registration() {
 							<div class="text font-space-grotesk text-[24px] leading-[64px] font-bold pl-[30px]">
 								Register
 							</div>
-							<div class="flex gap-[12px] absolute top-[20%] right-0">
+							<div class="flex gap-[12px] absolute top-[20%] right-[8px]">
 								<div class="mt-1.5 bg-[#E30613] px-[8px] py-[4px] rounded-[8px] h-[26px] text-box-trim-both transform skew-x-25">
 									Click here
 								</div>
-								<img class="w-[128px] h-[128px] rounded-[12px]" src="https://s3-alpha-sig.figma.com/img/52d4/a8eb/f8dff1f81853760c963cd9894c693bb0?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=UrQ-6Ubxlbab061O8iCY3i0WAqG5NhDyJg8ILiKv~y2cmXgc7af8Z-RY5hNHo1IW55r8abJoj7aBHAjlHP-kRpTOHiUHJIQRZWmybj39ltmwshJlcCGUfwkvkKCDn9Ht0E3FplazDlcmyzWMt2gOzON6NymWX8LZU0NVPucbSb4A1vqs8dvlH8gtUdB03L3O3qwVkB4~Zzwp4OyOKkpBa7wcKMWTWTyZf-iHQG9~CCxT25v8xVw9-WVFQ-v89nZvXeNnioZXI6le8u0Z7gqmQjWJxUQxNuNfuOdlqI7JCjSnAJhjmWK3dceim7DDXkKYp0rOoqS8afjHo3~Pd~c-fA__" />
+								<img alt="" class="w-[128px] h-[128px] rounded-[12px]"
+									src="https://s3-alpha-sig.figma.com/img/52d4/a8eb/f8dff1f81853760c963cd9894c693bb0?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=UrQ-6Ubxlbab061O8iCY3i0WAqG5NhDyJg8ILiKv~y2cmXgc7af8Z-RY5hNHo1IW55r8abJoj7aBHAjlHP-kRpTOHiUHJIQRZWmybj39ltmwshJlcCGUfwkvkKCDn9Ht0E3FplazDlcmyzWMt2gOzON6NymWX8LZU0NVPucbSb4A1vqs8dvlH8gtUdB03L3O3qwVkB4~Zzwp4OyOKkpBa7wcKMWTWTyZf-iHQG9~CCxT25v8xVw9-WVFQ-v89nZvXeNnioZXI6le8u0Z7gqmQjWJxUQxNuNfuOdlqI7JCjSnAJhjmWK3dceim7DDXkKYp0rOoqS8afjHo3~Pd~c-fA__" />
 							</div>
 						</div>
 						<span />
@@ -68,7 +68,7 @@ export default function Registration() {
 						</div>
 					</div>
 
-					<div class="instruct text-[#D9D9D9]">
+					<div class="grid grid-cols-[max-content_1fr] gap-2 items-end text-[#D9D9D9]">
 						<div class="button-custom bg-[#29292980] h-[50px] w-[58px] justify-center">
 							<div class="text font-space-grotesk text-[#009FE3] text-[72px] leading-[50px] font-bold">
 								3
