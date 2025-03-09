@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header';
+import Banner from './components/banner';
+import Registration from './components/Registration';
+import About from './components/About';
+import Activities from './components/Activities';
+import Gifting from './components/Gifting';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Banner />
+      <div class="bg-black grid gap-[100px]">
+        <Registration />
+        <About />
+        <Activities />
+        <Gifting />
+        <Footer />
+      </div>
     </div>
   );
 }
