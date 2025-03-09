@@ -1,17 +1,17 @@
 export default function Registration() {
 	return (
-		<div class="registration w-full grid gap-[10px] py-[100px] px-[24px]">
-			<div class="grid xs:grid-cols-1 md:grid-cols-2 items-start justify-between gap-[80px] px-[16px] py-[100px]">
-				<div class="text-left grid grid-cols-1 gap-[32px] text-[#D9D9D9]">
-					<div class="font-big-shoulders text-[72px] leading-[100%] font-bold uppercase">
+		<div className="registration w-full grid gap-[10px] py-[100px] px-[24px]">
+			<div className="grid xs:grid-cols-1 md:grid-cols-2 items-start justify-between gap-[80px] px-[16px] py-[100px]">
+				<div className="text-left grid grid-cols-1 gap-[32px] text-[#D9D9D9]">
+					<div className="font-big-shoulders text-[72px] leading-[100%] font-bold uppercase">
 						Registration
 					</div>
-					<div class="font-space-grotesk text-[16px] leading-[150%] font-normal">
+					<div className="font-space-grotesk text-[16px] leading-[150%] font-normal">
 						For organizational and security reasons, every visitor to the FUN arena Cheb must register before entering the attraction. At the reception, your registration will be completed and you will receive a loyalty card which you will use for our services.
 					</div>
 
 					<span>
-						<svg class="absolute left-[67px]" width="156" height="717" viewBox="0 0 156 717" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<svg className="absolute left-[67px]" width="156" height="717" viewBox="0 0 156 717" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<g opacity="0.25">
 								<path d="M91.4145 177.896L91.4145 87.3657L121.758 96.9795L121.758 195.121L155.174 205.135L155.174 10.0545L137.122 42.1006L1.53636 0.440667L1.53636 59.7259L57.6142 76.9507L57.6142 167.481L91.4145 177.896Z" fill="#009FE3" />
 								<path d="M155.174 716.27L155.174 657.386L113.692 646.17C125.983 673.809 139.426 697.443 154.406 715.87L155.174 716.27Z" fill="#009FE3" />
@@ -26,61 +26,61 @@ export default function Registration() {
 					</span>
 				</div>
 
-				<div class="grid gap-[48px]">
-					<div class="grid grid-cols-[max-content_1fr] gap-2 items-end text-[#D9D9D9]">
-						<div class="button-custom bg-[#29292980] h-[50px] w-[58px] justify-center">
-							<div class="text font-space-grotesk text-[#009FE3] text-[72px] leading-[50px] font-bold">
+				<div className="grid gap-[48px]">
+					<div className="grid grid-cols-[max-content_1fr] gap-2 items-end text-[#D9D9D9]">
+						<div className="button-custom bg-[#29292980] h-[50px] w-[58px] justify-center">
+							<div className="text font-space-grotesk text-[#009FE3] text-[72px] leading-[50px] font-bold">
 								1
 							</div>
 						</div>
-						<div class="button-custom bg-[#292929] h-[64px] w-full ">
-							<div class="text font-space-grotesk text-[24px] leading-[64px] font-bold pl-[30px]">
+						<div className="button-custom bg-[#292929] h-[64px] w-full ">
+							<div className="text font-space-grotesk text-[24px] leading-[64px] font-bold pl-[30px]">
 								Choose an Attraction
 							</div>
 						</div>
 						<span />
-						<div class="text-left pl-[30px] font-space-grotesk text-[16px] leading-[150%] font-normal">
+						<div className="text-left pl-[30px] font-space-grotesk text-[16px] leading-[150%] font-normal">
 							Choose from the attractions of the FUN arena.
 						</div>
 					</div>
 
-					<div class="grid grid-cols-[max-content_1fr] gap-2 items-end text-[#D9D9D9]">
-						<div class="button-custom bg-[#29292980] h-[50px] w-[58px] justify-center">
-							<div class="text font-space-grotesk text-[#009FE3] text-[72px] leading-[50px] font-bold">
+					<div className="grid grid-cols-[max-content_1fr] gap-2 items-end text-[#D9D9D9]">
+						<div className="button-custom bg-[#29292980] h-[50px] w-[58px] justify-center">
+							<div className="text font-space-grotesk text-[#009FE3] text-[72px] leading-[50px] font-bold">
 								2
 							</div>
 						</div>
-						<div class="button-custom bg-[#292929] h-[64px] w-full relative">
-							<div class="text font-space-grotesk text-[24px] leading-[64px] font-bold pl-[30px]">
+						<div className="button-custom bg-[#292929] h-[64px] w-full relative">
+							<div className="text font-space-grotesk text-[24px] leading-[64px] font-bold pl-[30px]">
 								Register
 							</div>
-							<div class="flex gap-[12px] absolute top-[20%] right-[8px]">
-								<div class="mt-1.5 bg-[#E30613] px-[8px] py-[4px] rounded-[8px] h-[26px] text-box-trim-both transform skew-x-25">
+							<div className="flex gap-[12px] absolute top-[20%] right-[8px]">
+								<div className="mt-1.5 bg-[#E30613] px-[8px] py-[4px] rounded-[8px] h-[26px] text-box-trim-both transform skew-x-25">
 									Click here
 								</div>
-								<img alt="" class="w-[128px] h-[128px] rounded-[12px]"
+								<img alt="" className="w-[128px] h-[128px] rounded-[12px]"
 									src="https://s3-alpha-sig.figma.com/img/52d4/a8eb/f8dff1f81853760c963cd9894c693bb0?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=UrQ-6Ubxlbab061O8iCY3i0WAqG5NhDyJg8ILiKv~y2cmXgc7af8Z-RY5hNHo1IW55r8abJoj7aBHAjlHP-kRpTOHiUHJIQRZWmybj39ltmwshJlcCGUfwkvkKCDn9Ht0E3FplazDlcmyzWMt2gOzON6NymWX8LZU0NVPucbSb4A1vqs8dvlH8gtUdB03L3O3qwVkB4~Zzwp4OyOKkpBa7wcKMWTWTyZf-iHQG9~CCxT25v8xVw9-WVFQ-v89nZvXeNnioZXI6le8u0Z7gqmQjWJxUQxNuNfuOdlqI7JCjSnAJhjmWK3dceim7DDXkKYp0rOoqS8afjHo3~Pd~c-fA__" />
 							</div>
 						</div>
 						<span />
-						<div class="text-left pl-[30px] font-space-grotesk text-[16px] leading-[150%] font-normal max-w-[calc(100%-150px)]">
+						<div className="text-left pl-[30px] font-space-grotesk text-[16px] leading-[150%] font-normal max-w-[calc(100%-150px)]">
 							You can register at the reception or by clicking the button above from the comfort of your home.
 						</div>
 					</div>
 
-					<div class="grid grid-cols-[max-content_1fr] gap-2 items-end text-[#D9D9D9]">
-						<div class="button-custom bg-[#29292980] h-[50px] w-[58px] justify-center">
-							<div class="text font-space-grotesk text-[#009FE3] text-[72px] leading-[50px] font-bold">
+					<div className="grid grid-cols-[max-content_1fr] gap-2 items-end text-[#D9D9D9]">
+						<div className="button-custom bg-[#29292980] h-[50px] w-[58px] justify-center">
+							<div className="text font-space-grotesk text-[#009FE3] text-[72px] leading-[50px] font-bold">
 								3
 							</div>
 						</div>
-						<div class="button-custom bg-[#292929] h-[64px] w-full ">
-							<div class="text font-space-grotesk text-[24px] leading-[64px] font-bold pl-[30px]">
+						<div className="button-custom bg-[#292929] h-[64px] w-full ">
+							<div className="text font-space-grotesk text-[24px] leading-[64px] font-bold pl-[30px]">
 								Have Fun
 							</div>
 						</div>
 						<span />
-						<div class="text-left pl-[30px] font-space-grotesk text-[16px] leading-[150%] font-normal">
+						<div className="text-left pl-[30px] font-space-grotesk text-[16px] leading-[150%] font-normal">
 							Thank you for your online registrations. For each purchase you get points, which you can apply to our services and attractions then. We look forward to you!
 						</div>
 					</div>

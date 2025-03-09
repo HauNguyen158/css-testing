@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <Banner />
-      <div class="bg-black grid gap-[100px]">
+      <div className="bg-black grid gap-[100px]">
         <Registration />
         <About />
         <Activities />

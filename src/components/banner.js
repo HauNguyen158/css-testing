@@ -31,95 +31,95 @@ export default function Banner() {
 
 	const [indexItem, setIndexItem] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndexItem((prevIndex) => (prevIndex + 1) % items.length); 
-    }, 2000);
+	useEffect(() => {
+		const interval = setInterval(() => {
+			setIndexItem((prevIndex) => (prevIndex + 1) % items.length);
+		}, 2000);
 
-    return () => clearInterval(interval);
-  }, [items.length]);
+		return () => clearInterval(interval);
+	}, [items.length]);
 
 	function currentSlide(index) {
 		setIndexItem(index);
 	}
 
 	return (
-		<div class="bg-[linear-gradient(180deg,#19191900_0%,#191919_100%)] relative banner">
-			<div class="relative m-auto">
-				<img src={items[indexItem].img} alt="" class="max-h-[720px]" width="100%" />
+		<div className="bg-[linear-gradient(180deg,#19191900_0%,#191919_100%)] relative banner">
+			<div className="relative m-auto">
+				<img src={items[indexItem].img} alt="" className="max-h-[720px]" width="100%" />
 			</div>
 
-			<div class="px-[48px] py-[50px] flex justify-between absolute bottom-0 z-10 w-full">
-				<div class="w-[max-content] grid gap-[24px] max-w-[552.25px]">
-					<span class="w-[max-content] text-[#FFFFFF] font-big-shoulders font-bold text-[120px] leading-[100%] tracking-[0] shadow-[0px_0px_10px_0px_#00000040]">
+			<div className="px-[48px] py-[50px] flex justify-between absolute bottom-0 z-10 w-full">
+				<div className="w-[max-content] grid gap-[24px] max-w-[552.25px]">
+					<span className="w-[max-content] text-[#FFFFFF] font-big-shoulders font-bold text-[120px] leading-[100%] tracking-[0] shadow-[0px_0px_10px_0px_#00000040]">
 						{items[indexItem].title}
 					</span>
-					<div class="grid grid-cols-[auto_max-content] gap-[12px] justify-start">
-						<span class="w-[347px] font-space-grotesk font-normal text-[14px] leading-[100%] tracking-[0] text-[#D9D9D9] text-left">
+					<div className="grid grid-cols-[auto_max-content] gap-[12px] justify-start">
+						<span className="w-[347px] font-space-grotesk font-normal text-[14px] leading-[100%] tracking-[0] text-[#D9D9D9] text-left">
 							{items[indexItem].text}
 						</span>
-						<div class="button-custom h-[49px] w-[max-content] relative border-[1px] border-solid border-[#D9D9D9] px-[24px]">
-							<div class="text-[#D9D9D9] font-space-grotesk font-medium text-[16px] leading-[100%] tracking-[0] pl-2">
+						<div className="button-custom h-[49px] w-[max-content] relative border-[1px] border-solid border-[#D9D9D9] px-[24px]">
+							<div className="text-[#D9D9D9] font-space-grotesk font-medium text-[16px] leading-[100%] tracking-[0] pl-2">
 								Find out more
 							</div>
 						</div>
 					</div>
-					<div class="flex gap-[8px] w-[max-content] items-center">
+					<div className="flex gap-[8px] w-[max-content] items-center">
 						{
 							items.map((_, index) => {
 								return index === indexItem ? (
-									<div class="w-[16px] h-[16px] gap-2 rounded-full border border-[1px] flex justify-center items-center">
-										<div class="w-[12px] h-[12px] rounded-full bg-[#D9D9D9]" />
+									<div key={index} className="w-[16px] h-[16px] gap-2 rounded-full border border-[1px] flex justify-center items-center">
+										<div className="w-[12px] h-[12px] rounded-full bg-[#D9D9D9]" />
 									</div>
 								) : (
-									<div class="w-[12px] h-[12px] gap-2 rounded-full border border-[1px] dot-number"
+									<div key={index} className="w-[12px] h-[12px] gap-2 rounded-full border border-[1px] dot-number"
 										onClick={() => currentSlide(index)} />
 								)
 							})
 						}
 					</div>
 				</div>
-				<div class="w-[max-content] max-w-[382px]">
+				<div className="w-[max-content] max-w-[382px]">
 					b
 				</div>
 			</div>
-			<div class="z-20 absolute left-1/2 top-full w-[240px] h-[240px] transform -translate-x-1/2 -translate-y-1/2">
+			<div className="z-20 absolute left-1/2 top-full w-[240px] h-[240px] transform -translate-x-1/2 -translate-y-1/2">
 				<svg width="240" height="240" viewBox="0 0 440 410" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g filter="url(#filter0_f_1_585)">
 						<circle cx="150" cy="150" r="50" fill="url(#paint0_radial_1_585)" />
 					</g>
 					<g filter="url(#filter1_f_1_585)">
-						<circle cx="256" cy="226" r="84" fill="url(#paint1_radial_1_585)" fill-opacity="0.5" />
+						<circle cx="256" cy="226" r="84" fill="url(#paint1_radial_1_585)" fillOpacity="0.5" />
 					</g>
 					<defs>
-						<filter id="filter0_f_1_585" x="0" y="0" width="300" height="300" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-							<feFlood flood-opacity="0" result="BackgroundImageFix" />
+						<filter id="filter0_f_1_585" x="0" y="0" width="300" height="300" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+							<feFlood floodOpacity="0" result="BackgroundImageFix" />
 							<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
 							<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_1_585" />
 						</filter>
-						<filter id="filter1_f_1_585" x="72" y="42" width="368" height="368" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-							<feFlood flood-opacity="0" result="BackgroundImageFix" />
+						<filter id="filter1_f_1_585" x="72" y="42" width="368" height="368" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+							<feFlood floodOpacity="0" result="BackgroundImageFix" />
 							<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
 							<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_1_585" />
 						</filter>
 						<radialGradient id="paint0_radial_1_585" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(150 150) rotate(90) scale(50)">
-							<stop stop-color="#E30613" />
-							<stop offset="1" stop-color="#009FE3" />
+							<stop stopColor="#E30613" />
+							<stop offset="1" stopColor="#009FE3" />
 						</radialGradient>
 						<radialGradient id="paint1_radial_1_585" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 226) rotate(90) scale(84)">
-							<stop stop-color="#009FE3" />
-							<stop offset="1" stop-color="#E30613" />
+							<stop stopColor="#009FE3" />
+							<stop offset="1" stopColor="#E30613" />
 						</radialGradient>
 					</defs>
 				</svg>
 
 			</div>
 			<a href='https://booking.funarenacheb.cz/' target="_blank" rel="noreferrer"
-				class="absolute w-[250px] h-[65px] left-1/2 transform -translate-x-1/2 bottom-[-10px] z-20">
-				<div class="button-custom bg-[#E30613] h-[64px] w-full relative items-center justify-center">
-					<div class="button-custom bg-[#009FE3] absolute h-[64px] w-1/2 items-center left-0"
+				className="absolute w-[250px] h-[65px] left-1/2 transform -translate-x-1/2 bottom-[-10px] z-20">
+				<div className="button-custom bg-[#E30613] h-[64px] w-full relative items-center justify-center">
+					<div className="button-custom bg-[#009FE3] absolute h-[64px] w-[55%] items-center left-0"
 						style={{ transform: "skew(0deg)" }} />
-					<span class="font-big-shoulders-display font-bold text-[32px] leading-[32px] tracking-[0%] text-[#D9D9D9] ">
+					<span className="font-big-shoulders-display font-bold text-[32px] leading-[32px] tracking-[0%] text-[#D9D9D9] ">
 						RESERVE NOW!
 					</span>
 				</div>
