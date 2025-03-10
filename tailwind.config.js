@@ -6,7 +6,8 @@ module.exports = {
       fontFamily: {
         "space-grotesk": ["Space Grotesk, sans-serif"],
         "big-shoulders": ["Big Shoulders Text, sans-serif"],
-        'big-shoulders-display': ['"Big Shoulders Display"', 'sans-serif'],
+        "big-shoulders-display": ["Big Shoulders Display, sans-serif"],
+        "lexend-deca":["Lexend Deca, sans-serif"]
       },
       skew: {
         '-25': '-25deg',

@@ -1,24 +1,14 @@
 import './App.css';
 import Header from './components/Header';
 import Banner from './components/Banner';
-import Registration from './components/Registration';
-import About from './components/About';
-import Activities from './components/Activities';
-import Gifting from './components/Gifting';
-import Footer from './components/Footer';
+import Home from './layouts/Home';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Banner />
-      <div className="bg-black grid gap-[100px]">
-        <Registration />
-        <About />
-        <Activities />
-        <Gifting />
-        <Footer />
-      </div>
+         <Header />
+         <Banner />
+         <Home/>
     </div>
   );
 }

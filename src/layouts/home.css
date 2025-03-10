@@ -1,0 +1,78 @@
+.button-custom {
+  font-family: 'Space Grotesk';
+  text-align: center;
+  border-radius: 8px;
+  transform: skew(-25deg);
+  display: flex;
+  align-items: center;
+}
+
+.button-custom> :first-child,
+.button-custom> :last-child {
+  transform: skew(25deg);
+}
+
+.image-about::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://s3-alpha-sig.figma.com/img/103c/7320/1899a43d43548c6bda9bb995b41d3d15?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=bZQUJ17DSHB2hdluZZdkpbPZU05iPQZOc7L~EHcGTiiIDp1q9WfIxT0yA1sYxCoVJiU1uxj~zfVxdHOtozaL~8BScK6zGzST1pxPKh5hjWUpsRJYbNn38OhIw-SF2NpOu0lKFAmdULUt6VqrziLge1MV0p3g9fdtjVJRBCUDYOcs2YbKrPbNSHgYJaXNnX1XWu~-USaAU6FHeH9Ez9pymQhzCzeTDyTadDZegxXtnItduNolKI3tFJKsrTAkT872x56WOKRKWXO-n~k7nxjRMvsq0eyWScRfhv9rlV5N7mCpdCNrN~Z6J7v-HU4Yju-GaRTZsMFkRmKsU1wY4sp0cQ__');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  z-index: 5;
+}
+
+.button-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #D9D9D933, #D9D9D9);
+  z-index: 1;
+  border-radius: 8px 0 0 8px;
+}
+
+.button-image-actived::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(41, 41, 41, 0.2) 0%, #292929 100%);
+  border-radius: 8px 0 0 8px;
+}
+
+.banner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(25, 25, 25, 0) 52.85%, #191919 100%);
+}
+
+.custom-radial {
+  backdrop-filter: blur(100px);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 159, 227, 0.5) 0%, rgba(227, 6, 19, 0.5) 100%);
+}
+
+.dot-number:hover {
+  background-color: #D9D9D9;
+  cursor: pointer;
+  outline: 1px solid #D9D9D9;
+  outline-offset: 1px;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #009FE3 43.43%, #FFFFFF 61.46%, #E30613 79.63%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

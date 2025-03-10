@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Info from './Info';
 
 export default function Banner() {
 	const items = [
@@ -46,20 +47,20 @@ export default function Banner() {
 	return (
 		<div className="bg-[linear-gradient(180deg,#19191900_0%,#191919_100%)] relative banner">
 			<div className="relative m-auto">
-				<img src={items[indexItem].img} alt="" className="max-h-[720px]" width="100%" />
+				<img src={items[indexItem].img} alt="" className="max-h-[720px] max-sm:h-[320px]" width="100%" />
 			</div>
 
-			<div className="px-[48px] py-[50px] flex justify-between absolute bottom-0 z-10 w-full">
-				<div className="w-[max-content] grid gap-[24px] max-w-[552.25px]">
-					<span className="w-[max-content] text-[#FFFFFF] font-big-shoulders font-bold text-[120px] leading-[100%] tracking-[0] shadow-[0px_0px_10px_0px_#00000040]">
+			<div className="px-[48px] max-sm:px-[10px] py-[50px] max-sm:py-[12px] flex justify-between absolute bottom-0 z-10 w-full">
+				<div className="w-[max-content] grid gap-[24px] max-w-[552.25px] max-sm:gap-[12px]">
+					<span className="w-[max-content] text-[#FFFFFF] font-big-shoulders font-bold text-[120px] max-sm:text-[32px] leading-[100%] tracking-[0] shadow-[0px_0px_10px_0px_#00000040]">
 						{items[indexItem].title}
 					</span>
-					<div className="grid grid-cols-[auto_max-content] gap-[12px] justify-start">
-						<span className="w-[347px] font-space-grotesk font-normal text-[14px] leading-[100%] tracking-[0] text-[#D9D9D9] text-left">
+					<div className="grid grid-cols-[auto_max-content] max-sm:grid-cols-1 gap-[12px] justify-start">
+						<span className="w-[347px] max-sm:w-full font-space-grotesk font-normal text-[14px] leading-[100%] tracking-[0] text-[#D9D9D9] text-left">
 							{items[indexItem].text}
 						</span>
-						<div className="button-custom h-[49px] w-[max-content] relative border-[1px] border-solid border-[#D9D9D9] px-[24px]">
-							<div className="text-[#D9D9D9] font-space-grotesk font-medium text-[16px] leading-[100%] tracking-[0] pl-2">
+						<div className="button-custom h-[49px] max-sm:h-[32px] max-sm:px-[12px] w-[max-content] relative border-[1px] border-solid border-[#D9D9D9] px-[24px]">
+							<div className="text-[#D9D9D9] font-space-grotesk font-medium text-[16px] max-sm:text-[14px] leading-[100%] tracking-[0] pl-2">
 								Find out more
 							</div>
 						</div>
@@ -79,9 +80,10 @@ export default function Banner() {
 						}
 					</div>
 				</div>
-				<div className="w-[max-content] max-w-[382px]">
-					b
+				<div className="max-sm:hidden">
+					<Info />
 				</div>
+
 			</div>
 			<div className="z-20 absolute left-1/2 top-full w-[240px] h-[240px] transform -translate-x-1/2 -translate-y-1/2">
 				<svg width="240" height="240" viewBox="0 0 440 410" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -115,11 +117,11 @@ export default function Banner() {
 
 			</div>
 			<a href='https://booking.funarenacheb.cz/' target="_blank" rel="noreferrer"
-				className="absolute w-[250px] h-[65px] left-1/2 transform -translate-x-1/2 bottom-[-10px] z-20">
-				<div className="button-custom bg-[#E30613] h-[64px] w-full relative items-center justify-center">
-					<div className="button-custom bg-[#009FE3] absolute h-[64px] w-[55%] items-center left-0"
+				className="absolute w-[250px] h-[65px] max-sm:w-1/3 left-1/2 transform -translate-x-1/2 max-sm:-translate-y-1/2 bottom-[-10px] max-sm:top-full z-20">
+				<div className="button-custom bg-[#E30613] h-[64px] max-sm:h-[48px] w-full relative items-center justify-center">
+					<div className="button-custom bg-[#009FE3] absolute h-[64px] max-sm:h-[48px] w-[55%] items-center left-0"
 						style={{ transform: "skew(0deg)" }} />
-					<span className="font-big-shoulders-display font-bold text-[32px] leading-[32px] tracking-[0%] text-[#D9D9D9] ">
+					<span className="font-big-shoulders-display font-bold max-sm:text-[24px] text-[32px] leading-[32px] tracking-[0%] text-[#D9D9D9] ">
 						RESERVE NOW!
 					</span>
 				</div>
