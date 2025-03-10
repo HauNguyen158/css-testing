@@ -26,6 +26,20 @@
   z-index: 5;
 }
 
+.image-about-opacity::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://s3-alpha-sig.figma.com/img/103c/7320/1899a43d43548c6bda9bb995b41d3d15?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=bZQUJ17DSHB2hdluZZdkpbPZU05iPQZOc7L~EHcGTiiIDp1q9WfIxT0yA1sYxCoVJiU1uxj~zfVxdHOtozaL~8BScK6zGzST1pxPKh5hjWUpsRJYbNn38OhIw-SF2NpOu0lKFAmdULUt6VqrziLge1MV0p3g9fdtjVJRBCUDYOcs2YbKrPbNSHgYJaXNnX1XWu~-USaAU6FHeH9Ez9pymQhzCzeTDyTadDZegxXtnItduNolKI3tFJKsrTAkT872x56WOKRKWXO-n~k7nxjRMvsq0eyWScRfhv9rlV5N7mCpdCNrN~Z6J7v-HU4Yju-GaRTZsMFkRmKsU1wY4sp0cQ__');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  z-index: 5;
+}
+
 .button-image::after {
   content: '';
   position: absolute;

@@ -43,7 +43,7 @@ export default function Activities() {
 					</div>
 				</div>
 
-				<div className="grid grid-cols-[35%_65%] max-sm:grid-cols-1 gap-8  max-sm:gap-[12px] w-full justify-between items-center">
+				<div className="grid grid-cols-[35%_65%] max-sm:grid-cols-1 gap-8 max-sm:gap-[12px] w-full justify-between items-center">
 					<div className="max-sm:px-[10px] text-[#292929] text-[32px] leading-[100%] font-normal uppercase grid gap-[12px] h-[max-content] relative">
 						{data.map((item, index) => {
 							return !item.actived ?
@@ -72,7 +72,7 @@ export default function Activities() {
 					</div>
 
 					<div className="w-full relative">
-						<div className="image-about w-[inherit] float-right relative rounded-[24px] h-auto max-h-[518px] overflow-hidden max-w-[780px]">
+						<div className="image-about-opacity w-[inherit] float-right relative rounded-[24px] h-auto max-h-[518px] overflow-hidden max-w-[780px]">
 							<svg className="w-full h-full" viewBox="0 0 780 518" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<defs>
 									<clipPath id="pathClip">
